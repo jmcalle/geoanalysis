@@ -42,18 +42,19 @@ You will need the following packages, run the following pip commands (and if tho
 ## Run project scripts
 Steps to run the project (its need to be run in the sequential order as described below). 
 Although scripts supports multiple configurations, commands and parameteres were run within the same project folder structure:
-	1. "sentinel_get.py --start_date 20190410 --end_date 20190710 --dir_target ."
-	2. "biomass_calculation.py --dir_source ."
-	3. "nearest_asset.py --path . —shapefile ./TOJ_Planning/CRA_proj.shp"
-	4. "clip_roster.py --dir_source ."
+
+1. "sentinel_get.py --start_date 20190410 --end_date 20190710 --dir_target ."
+2. "biomass_calculation.py --dir_source ."
+3. "nearest_asset.py --path . —shapefile ./TOJ_Planning/CRA_proj.shp"
+4. "clip_roster.py --dir_source ."
   
 ## Analyze and test outputs
-	5. Run Jypyter notebooks (one per lighting strike observation). Run command jupyter lab
-		5.1 LightStrike20190601.ipynb
-		5.2 LightStrike20190601_2.ipynb
-		5.3 LightStrike20190601_3.ipynb
-		5.4 LightStrike20190514.ipynb
-		5.5 LightStrike20190515.ipynb
+1. Run Jypyter notebooks (one per lighting strike observation). Run command jupyter lab
+	- LightStrike20190601.ipynb
+	- LightStrike20190601_2.ipynb
+	- LightStrike20190601_3.ipynb
+	- LightStrike20190514.ipynb
+	- LightStrike20190515.ipynb
 
 Note when running Jupyter notebooks below hardcoded variables point to working directory where output and code reside.
 If file structure needs to be changed , modify variables so they point to the newly created output structure. See below:
