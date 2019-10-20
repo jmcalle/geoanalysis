@@ -39,7 +39,7 @@ You will need the following packages, run the following pip commands (and if tho
   Pip install aiowwln
 
 
-## Run project scripts
+## Instructions
 Steps to run the project (its need to be run in the sequential order as described below). 
 Although scripts supports multiple configurations, commands and parameteres were run within the same project folder structure:
 
