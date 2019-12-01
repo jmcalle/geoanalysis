@@ -40,7 +40,7 @@ You will need the following packages, run the following pip commands (and if tho
 
 
 ## Instructions
-Steps to run the project (its need to be run in the sequential order as described below). 
+Steps to run the project (it needs to be run in the same order as listed below). 
 Although scripts supports multiple configurations, commands and parameteres were run within the same project folder structure:
 
 1. "sentinel_get.py --start_date 20190410 --end_date 20190710 --dir_target ."
